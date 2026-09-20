@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eslam Elsayed | Cloud & Network Engineer</title>
+  <meta name="description" content="Eslam Elsayed — Telecommunications & Networks Engineer specializing in cloud computing, network infrastructure, and AWS solutions.">
+  <meta name="keywords" content="Eslam Elsayed, Cloud Engineer, Network Engineer, AWS, Telecommunications, Egypt, Portfolio">
+  <meta name="author" content="Eslam Elsayed">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Eslam Elsayed | Cloud & Network Engineer">
+  <meta property="og:description" content="Telecommunications & Networks Engineer specializing in cloud computing, network infrastructure, and AWS solutions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eslamelsayed.com">
+  <meta property="og:image" content="assets/images/profile.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Eslam Elsayed | Cloud & Network Engineer">
+  <meta name="twitter:description" content="Telecommunications & Networks Engineer specializing in cloud computing, network infrastructure, and AWS solutions.">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Cursor Follower -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-text">Eslam<span class="accent">.</span></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="floating-particles" id="particles"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-name">
+          <span class="greeting reveal-up">Hello, I'm</span>
+          <span class="name reveal-up">Eslam Elsayed</span>
+        </h1>
+        <div class="hero-title-wrapper reveal-up">
+          <span class="hero-title-prefix">I'm a&nbsp;</span>
+          <span class="hero-typed" id="typedText"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+        <p class="hero-description reveal-up">
+          Communications and networks engineering student with a strong interest in Cloud Computing and AWS Security. Passionate about building secure, scalable, and reliable cloud solutions while growing as a Cloud and AWS Security professional.
+        </p>
+        <div class="hero-buttons reveal-up">
+          <a href="#contact" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Contact Me
+          </a>
+          <a href="https://www.linkedin.com/in/eslam-elsayed-1b6088288" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="assets/images/Eslam_Elsayed_CV.pdf" download class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+        <div class="hero-stats reveal-up">
+          <div class="stat-item">
+            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Technical Skills</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal-up">
+        <div class="hero-image-wrapper">
+          <div class="hero-image-ring"></div>
+          <div class="hero-image-ring ring-2"></div>
+          <div class="hero-image-bg">
+            <img src="assets/images/hero.jpeg" alt="Eslam Elsayed" class="hero-photo" id="heroPhoto" onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex'">
+            <div class="avatar-fallback" id="avatarFallback" style="display:none;">
+              <span>EE</span>
+            </div>
+          </div>
+          <div class="hero-image-badge">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            AWS Cloud
+          </div>
+        </div>
+        <div class="hero-tech-icons">
+          <div class="tech-icon" title="Cloud Computing">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+          </div>
+          <div class="tech-icon" title="Networking">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="6" height="6" rx="1"/><rect x="16" y="2" width="6" height="6" rx="1"/><rect x="9" y="16" width="6" height="6" rx="1"/><path d="M5 8v3a2 2 0 002 2h10a2 2 0 002-2V8"/><path d="M12 13v3"/></svg>
+          </div>
+          <div class="tech-icon" title="AWS">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Get to know me</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col reveal-left">
+          <div class="about-image-wrapper">
+            <div class="about-image-bg">
+              <img src="assets/images/about.jpeg" alt="Eslam Elsayed" class="about-photo" onerror="this.style.display='none';document.getElementById('aboutAvatar').style.display='flex'">
+              <div class="avatar-fallback about-avatar-fallback" id="aboutAvatar" style="display:none;">
+                <span>EE</span>
+              </div>
+            </div>
+            <div class="about-image-dots"></div>
+          </div>
+        </div>
+        <div class="about-content-col">
+          <h3 class="about-subtitle reveal-up">Communications & Networks Engineering Student</h3>
+          <p class="about-text reveal-up">
+            I'm Eslam Elsayed, a Communications and Networks Engineering student with a strong interest in Cloud Computing and AWS Security. My journey started with networking and infrastructure, then expanded into AWS and cloud technologies through hands-on courses, labs, and projects.
+          </p>
+          <p class="about-text reveal-up">
+            I have experience working with AWS services such as EC2, S3, VPC, IAM, RDS, Lambda, and Elastic Beanstalk, with a focus on building secure, scalable, and reliable cloud solutions.
+          </p>
+          <p class="about-text reveal-up">
+            I'm passionate about continuous learning and problem-solving, and my goal is to grow as a Cloud and AWS Security professional while applying my skills to real-world projects.
+          </p>
+          <div class="about-details reveal-up">
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+              <span class="detail-value">Toukh, Qalyubia, Egypt</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email</span>
+              <span class="detail-value">eslam66elsayed@gmail.com</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Phone</span>
+              <span class="detail-value">+20 109 169 5634</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Languages</span>
+              <span class="detail-value">Arabic (Native) · English (Good)</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary reveal-up">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Academic background</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-grid">
+        <div class="education-card reveal-up">
+          <div class="education-card-glow"></div>
+          <div class="education-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 12 3 12 0v-5"/></svg>
+          </div>
+          <div class="education-content">
+            <span class="education-degree">B.Sc. in Communications and Networks Engineering</span>
+            <h3 class="education-school">Faculty of Electronic Engineering, Menoufia University</h3>
+            <p class="education-university">2023 – 2027 | Menoufia, Egypt</p>
+            <p class="education-dept">Pursuing my degree in Communications and Networks Engineering, developing strong skills in networking, telecommunications, and IT infrastructure, with a growing focus on Cloud Computing and AWS Security.</p>
+            <div class="education-meta">
+              <span class="meta-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                2023 – 2027
+              </span>
+              <span class="meta-item gpa-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                GPA: 3.4
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">My journey</span>
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal-left">
+          <div class="timeline-marker">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-header">
+              <div class="timeline-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+              </div>
+              <div class="timeline-date">
+                <span class="date-badge">2026 – Present</span>
+                <span class="duration">Ongoing</span>
+              </div>
+            </div>
+            <h3 class="timeline-title">Cloud Computing & AWS Security Trainee</h3>
+            <h4 class="timeline-company">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 12 3 12 0v-5"/></svg>
+              Digital Egypt Pioneers Initiative (DEPI) – Round 5
+            </h4>
+            <p class="timeline-description">
+              Developing practical skills in AWS Cloud Computing and Cloud Security. Hands-on experience with AWS services: EC2, S3, VPC, IAM, RDS, Lambda, Elastic Beanstalk. Building projects focused on secure, scalable, and reliable cloud solutions. Strengthening skills in networking, troubleshooting, and cloud infrastructure.
+            </p>
+            <ul class="timeline-highlights">
+              <li>Hands-on experience with EC2, S3, VPC, IAM, RDS, Lambda, and Elastic Beanstalk</li>
+              <li>Building secure, scalable, and reliable cloud solutions</li>
+              <li>Strengthening networking, troubleshooting, and cloud infrastructure skills</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">Cloud Security</span>
+              <span class="tag">EC2</span>
+              <span class="tag">VPC</span>
+              <span class="tag">IAM</span>
+              <span class="tag">Lambda</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">What I know</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- Networking -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon network-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="6" height="6" rx="1"/><rect x="16" y="2" width="6" height="6" rx="1"/><rect x="9" y="16" width="6" height="6" rx="1"/><path d="M5 8v3a2 2 0 002 2h10a2 2 0 002-2V8"/><path d="M12 13v3"/></svg>
+            </div>
+            <h3 class="skill-category-title">Networking</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Routing Protocols (OSPF, EIGRP, BGP)</span>
+            <span class="skill-tag">Switching (VLAN, STP)</span>
+          </div>
+        </div>
+
+        <!-- Cloud -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon cloud-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+            </div>
+            <h3 class="skill-category-title">Cloud</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS (EC2, VPC, IAM, S3)</span>
+          </div>
+        </div>
+
+        <!-- Automation -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon tools-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="skill-category-title">Automation</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Terraform (Basic)</span>
+            <span class="skill-tag">CloudFormation (Basic)</span>
+          </div>
+        </div>
+
+        <!-- DevOps -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon code-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+            </div>
+            <h3 class="skill-category-title">DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">CI/CD Fundamentals</span>
+            <span class="skill-tag">Docker Basics</span>
+          </div>
+        </div>
+
+        <!-- Operating Systems -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon hardware-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3 class="skill-category-title">Operating Systems</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Linux (Basic Command Line)</span>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-category-card reveal-up">
+          <div class="skill-card-glow"></div>
+          <div class="skill-category-header">
+            <div class="skill-icon code-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="skill-category-title">Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C (MicroC)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">My work</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal-up">
+          <a href="https://github.com/eslam66elsayed/AWS-Cloud-Native-ATS-CVs-Generation-Application" target="_blank" rel="noopener noreferrer" class="project-link">
+            <div class="project-cover">
+  <img src="assets/images/projects/ats-cv-generator.png" 
+       alt="AWS Cloud-Native ATS CV Generator" 
+       class="project-cover-image">
+  <div class="project-cover-overlay"></div>
+  <div class="project-cover-icon">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+  </div>
+</div>
+            <div class="project-content">
+              <h3 class="project-title">AWS Cloud-Native ATS CV Generator</h3>
+              <p class="project-description">
+                A serverless application that generates and analyzes ATS-friendly CVs using AWS cloud services.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">EC2</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">API Gateway</span>
+                <span class="tech-tag">S3</span>
+                <span class="tech-tag">RDS</span>
+                <span class="tech-tag">Flask</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-up">
+          <a href="https://github.com/eslam66elsayed/AWS-Serverless-Feedback-Contact-Form" target="_blank" rel="noopener noreferrer" class="project-link">
+            <div class="project-cover">
+  <img src="assets/images/projects/feedback-form.png" 
+       alt="AWS Serverless Feedback & Contact Form" 
+       class="project-cover-image">
+  <div class="project-cover-overlay"></div>
+  <div class="project-cover-icon">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+  </div>
+</div>
+            <div class="project-content">
+              <h3 class="project-title">AWS Serverless Feedback & Contact Form</h3>
+              <p class="project-description">
+                Designed and deployed a serverless feedback and contact form on AWS using services such as API Gateway, Lambda, DynamoDB, and SES. Focus: Serverless Architecture, Cloud Security, Event-Driven Design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">API Gateway</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">DynamoDB</span>
+                <span class="tech-tag">SES</span>
+                <span class="tech-tag">Serverless</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-up">
+          <a href="https://github.com/eslam66elsayed/Document-Approval-System" target="_blank" rel="noopener noreferrer" class="project-link">
+            <div class="project-cover">
+  <img src="assets/images/projects/document-approval.png" 
+       alt="Document Approval System" 
+       class="project-cover-image">
+  <div class="project-cover-overlay"></div>
+  <div class="project-cover-icon">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+  </div>
+</div>
+            <div class="project-content">
+              <h3 class="project-title">Document Approval System</h3>
+              <p class="project-description">
+                Built a serverless document approval system using S3, CloudFront, API Gateway, Lambda, DynamoDB, and SES. Users can securely submit documents, while admins can review, approve, or reject requests through a dedicated dashboard with automated email notifications.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">S3</span>
+                <span class="tech-tag">CloudFront</span>
+                <span class="tech-tag">API Gateway</span>
+                <span class="tech-tag">Lambda</span>
+                <span class="tech-tag">DynamoDB</span>
+                <span class="tech-tag">SES</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certifications-grid">
+        <!-- Certification 1 -->
+        <div class="cert-card reveal-up">
+          <div class="cert-card-glow"></div>
+          <div class="cert-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="6" height="6" rx="1"/><rect x="16" y="2" width="6" height="6" rx="1"/><rect x="9" y="16" width="6" height="6" rx="1"/><path d="M5 8v3a2 2 0 002 2h10a2 2 0 002-2V8"/><path d="M12 13v3"/></svg>
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Network Infrastructure</h3>
+            <p class="cert-issuer">National Telecommunication Institute (NTI)</p>
+            <p class="cert-meta">Duration: One month (July – August 2025)</p>
+          </div>
+        </div>
+
+        <!-- Certification 2 -->
+        <div class="cert-card reveal-up">
+          <div class="cert-card-glow"></div>
+          <div class="cert-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 12 3 12 0v-5"/></svg>
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">CCNAv7 (Cisco Certified Network Associate)</h3>
+            <p class="cert-issuer">National Telecommunication Institute (NTI)</p>
+            <p class="cert-meta">Duration: Two months (Mar – May 2026)</p>
+          </div>
+        </div>
+
+        <!-- Certification 3 -->
+        <div class="cert-card reveal-up">
+          <div class="cert-card-glow"></div>
+          <div class="cert-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Red Hat System Administration I (RH124)</h3>
+            <p class="cert-issuer">Maharatech</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Get in touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-col">
+          <h3 class="contact-subtitle reveal-up">Let's work together</h3>
+          <p class="contact-text reveal-up">
+            I'm always open to exploring new opportunities and professional collaborations in Cloud Computing, AWS, and Cloud Security. If you're interested in connecting or discussing potential opportunities, feel free to reach out.
+          </p>
+          <div class="contact-cards">
+            <a href="mailto:eslam66elsayed@gmail.com" class="contact-card reveal-up">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">eslam66elsayed@gmail.com</span>
+              </div>
+              <svg class="contact-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+            <a href="tel:+201091695634" class="contact-card reveal-up">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Phone</span>
+                <span class="contact-card-value">+20 109 169 5634</span>
+              </div>
+              <svg class="contact-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/eslam-elsayed-1b6088288" target="_blank" rel="noopener noreferrer" class="contact-card reveal-up">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">LinkedIn</span>
+                <span class="contact-card-value">linkedin.com/in/eslam-elsayed</span>
+              </div>
+              <svg class="contact-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+            <div class="contact-card reveal-up">
+              <div class="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-card-content">
+                <span class="contact-card-label">Location</span>
+                <span class="contact-card-value">Toukh, Qalyubia, Egypt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-col reveal-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Inquiry" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">Eslam<span class="accent">.</span></span>
+          <p class="footer-tagline">Communications & Networks Engineer</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/eslam-elsayed-1b6088288" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:eslam66elsayed@gmail.com" class="footer-social" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Eslam Elsayed. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
